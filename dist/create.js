@@ -46,7 +46,7 @@ function () {
           case 3:
             answer = _context.sent;
             project = answer.projectName;
-            templateName = answer.projectType === '组件模板' ? 'bat-component-template' : 'bat-page-template';
+            templateName = answer.projectType === '组件模板' ? 'x-manJS/bat-component-template' : 'x-manJS/bat-page-template';
             loading.start();
             (0, _downloadGitRepo.default)(templateName, process.cwd() + '/' + project, function (err) {
               if (err) {

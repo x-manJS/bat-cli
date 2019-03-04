@@ -21,7 +21,7 @@ let create = async () => {
     ])
 
     let project = answer.projectName
-    let templateName = answer.projectType === '组件模板' ? 'bat-component-template' : 'bat-page-template'
+    let templateName = answer.projectType === '组件模板' ? 'x-manJS/bat-component-template' : 'x-manJS/bat-page-template'
     loading.start()
 
     downLoadGit(templateName, process.cwd() + '/' + project, (err) => {  
