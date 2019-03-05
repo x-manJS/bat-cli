@@ -9,7 +9,7 @@ let create = async () => {
         type: 'input',
         name: 'projectName',
         message:'项目名称',
-        default:'d2-admin-demo'
+        default:'component-demo'
       },
       {
         type: 'list',
